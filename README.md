@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# cafe-app
+## cafe-app
 =======
 Cafe Management System
 Tech Stack: HTML, CSS, JavaScript, Spring Boot, Thymeleaf, MySQL
@@ -12,4 +11,3 @@ Highlights:
 Secure login for customers to place orders.
 Restricted actions: Only Admin can add employees, and only Employees can manage dishes.
 Responsive UI with enhanced user experience.
->>>>>>> 3584665 (Create README.md)
