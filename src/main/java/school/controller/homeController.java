@@ -23,6 +23,7 @@ import school.repositary.EmployeeRepository;
 @Controller
 public class homeController {
 
+
     @Autowired
     private CustomerRepository customerRepository;
 
@@ -34,12 +35,10 @@ public class homeController {
     
     @Autowired
     private ContactRepository contactRepository;
-
-
     // Home Page
     @GetMapping("/")
     public String homePage() {
-        return "Home";
+        return "home";
     }
     // about-us page
     @RequestMapping("/aboutus")
