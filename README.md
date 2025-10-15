@@ -1,5 +1,5 @@
 ## cafe-app
-=======
+
 Cafe Management System
 Tech Stack: HTML, CSS, JavaScript, Spring Boot, Thymeleaf, MySQL
 Features: Role-based authentication, MVC design pattern, global exception handling, pagination, and server-side validation.
