@@ -21,7 +21,7 @@ public class DishController {
     }
 
     // Show all dishes
-    @GetMapping("/list")
+    @GetMapping("/dish_list")
     public String listDishes(Model model) {
         model.addAttribute("dishes", dishService.getAllDishes());
         return "dish_list"; // Returns a Thymeleaf view for listing dishes
@@ -38,7 +38,7 @@ public class DishController {
     @PostMapping("/add")
     public String addDish(@ModelAttribute Dish dish) {
         dishService.saveDish(dish);
-        return "redirect:/employee-dashboard/dishes/list"; // Redirect to dish list
+        return "redirect:/dish_list"; // Redirect to dish list
     }
 
     // Show form to update an existing dish
