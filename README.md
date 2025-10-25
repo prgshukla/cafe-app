@@ -12,7 +12,7 @@ Secure login for customers to place orders.
 Restricted actions: Only Admin can add employees, and only Employees can manage dishes.
 Responsive UI with enhanced user experience.
 
-step 1: git pull https://github.com/yash-deshpande24/cafe-app
+step 1: git pull https://github.com/prgshukla/cafe-app.git
 
 step 2: cd cafe-app
 
