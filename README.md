@@ -22,22 +22,23 @@ step 3: ls & install a docker & then install docker-compose:
 step 4: created a Dockerfile:
     - vim Dockerfile
 
-step 5: docker build -t cafe-app .
-
-step 6: changes on a this path & then created your rds databses: 
+step 5: changes on a this path & then created your rds databses: 
      - src/main/resources/application.properties
      - <img width="1342" height="187" alt="image" src="https://github.com/user-attachments/assets/10537be5-00bb-4b00-b6d1-346a93999f72" />
 
-step 7: follow this steps:
-     - src/main/java/school/controller/homeController.java
+step 6: docker build -t cafe-app .
 
 step 8: run this command:
     - docker run -d -p 8080:8080 --name cafe-container cafe-app
 
-step 9: then this command to be use: 
+step 9: run docker compose 
+        docker compose build 
+        docker compose up -d
+        
+step 10: then this command to be use: 
     - docker ps 
     - docker images 
 
 step 10: copy your public ip address:
-     - 19.18.34.21:8080
+     - your instance ip:8080
      - then you see a home pages 
